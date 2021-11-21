@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-19T13:22:20 IST" name="MySuite" finished-at="2021-11-19T13:22:47 IST" duration-ms="27817">
+    <groups>
+    </groups>
+    <test started-at="2021-11-19T13:22:20 IST" name="TestingOnChrome" finished-at="2021-11-19T13:22:46 IST" duration-ms="26801">
+      <class name="demo_1.Multiple_Browsers">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demo_1.Multiple_Browsers@66f57048]" started-at="2021-11-19T13:22:20 IST" name="setup" finished-at="2021-11-19T13:22:22 IST" duration-ms="1981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Googletest()[pri:0, instance:demo_1.Multiple_Browsers@66f57048]" started-at="2021-11-19T13:22:22 IST" name="Googletest" finished-at="2021-11-19T13:22:34 IST" duration-ms="11937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googletest -->
+        <test-method signature="yahootest()[pri:0, instance:demo_1.Multiple_Browsers@66f57048]" started-at="2021-11-19T13:22:34 IST" name="yahootest" finished-at="2021-11-19T13:22:46 IST" duration-ms="12619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahootest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:demo_1.Multiple_Browsers@66f57048]" started-at="2021-11-19T13:22:46 IST" name="finish" finished-at="2021-11-19T13:22:46 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- demo_1.Multiple_Browsers -->
+    </test> <!-- TestingOnChrome -->
+    <test started-at="2021-11-19T13:22:20 IST" name="TestingOnEdge" finished-at="2021-11-19T13:22:47 IST" duration-ms="27817">
+      <class name="demo_1.Multiple_Browsers">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:demo_1.Multiple_Browsers@2fb3536e]" started-at="2021-11-19T13:22:20 IST" name="setup" finished-at="2021-11-19T13:22:22 IST" duration-ms="1971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Googletest()[pri:0, instance:demo_1.Multiple_Browsers@2fb3536e]" started-at="2021-11-19T13:22:22 IST" name="Googletest" finished-at="2021-11-19T13:22:34 IST" duration-ms="12166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Googletest -->
+        <test-method signature="yahootest()[pri:0, instance:demo_1.Multiple_Browsers@2fb3536e]" started-at="2021-11-19T13:22:34 IST" name="yahootest" finished-at="2021-11-19T13:22:47 IST" duration-ms="12746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahootest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:demo_1.Multiple_Browsers@2fb3536e]" started-at="2021-11-19T13:22:47 IST" name="finish" finished-at="2021-11-19T13:22:47 IST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- demo_1.Multiple_Browsers -->
+    </test> <!-- TestingOnEdge -->
+  </suite> <!-- MySuite -->
+</testng-results>
