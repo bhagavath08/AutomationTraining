@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Session_18.Session_18">
+        <methods>
+          <include name="Launch_portal"/>
+          <include name="Vegetable_Name"/>
+          <include name="finish"/>
+          <include name="Vegetable_Cost"/>
+          <include name="Add_to_Cart"/>
+        </methods>
+      </class> <!-- Session_18.Session_18 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
