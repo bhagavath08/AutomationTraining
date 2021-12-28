@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-22T15:25:46 IST" name="Default suite" finished-at="2021-12-22T15:26:01 IST" duration-ms="14822">
+    <groups>
+    </groups>
+    <test started-at="2021-12-22T15:25:46 IST" name="Default test" finished-at="2021-12-22T15:26:01 IST" duration-ms="14822">
+      <class name="Search_Potato.Search_Potato">
+        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:Search_Potato.Search_Potato@56cdfb3b]" started-at="2021-12-22T15:25:46 IST" name="LaunchURL" finished-at="2021-12-22T15:26:00 IST" duration-ms="13635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="TopDeal()[pri:0, instance:Search_Potato.Search_Potato@56cdfb3b]" started-at="2021-12-22T15:26:00 IST" name="TopDeal" finished-at="2021-12-22T15:26:00 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TopDeal -->
+        <test-method signature="Top_Deals_Page()[pri:0, instance:Search_Potato.Search_Potato@56cdfb3b]" started-at="2021-12-22T15:26:00 IST" name="Top_Deals_Page" finished-at="2021-12-22T15:26:00 IST" depends-on-methods="Search_Potato.Search_Potato.TopDeal" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Top_Deals_Page -->
+        <test-method signature="potato()[pri:0, instance:Search_Potato.Search_Potato@56cdfb3b]" started-at="2021-12-22T15:26:00 IST" name="potato" finished-at="2021-12-22T15:26:00 IST" depends-on-methods="Search_Potato.Search_Potato.Top_Deals_Page" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- potato -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Search_Potato.Search_Potato@56cdfb3b]" started-at="2021-12-22T15:26:00 IST" name="finish" finished-at="2021-12-22T15:26:01 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Search_Potato.Search_Potato -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
